@@ -179,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: PAUSE MENU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 8b29aaa3eec7468097ff07adfcf29ac9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 2.3009644, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &53910619
@@ -1549,7 +1549,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.11061803, y: -0.00000002824204, z: 1.1418334e-10, w: 0.993863}
+  m_LocalRotation: {x: 0.11061803, y: -0.000000025731621, z: 2.751382e-11, w: 0.993863}
   m_LocalPosition: {x: 4.08, y: 2.002687, z: -8.095984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2916,7 +2916,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669290634}
-  m_LocalRotation: {x: 0.096543156, y: -0.0000000042815005, z: 4.1528952e-10, w: 0.99532884}
+  m_LocalRotation: {x: 0.096543156, y: 0.0000000042815023, z: -4.152897e-10, w: 0.99532884}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

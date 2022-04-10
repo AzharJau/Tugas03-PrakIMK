@@ -79,7 +79,6 @@ public class Movement : MonoBehaviour
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
             playerVelocity.y += gravityValue * Time.deltaTime;
             Vector3 targetJump = transform.position + playerVelocity * Time.deltaTime;
-            
             Move(targetJump);
 
         }
@@ -131,7 +130,7 @@ public class Movement : MonoBehaviour
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
             playerVelocity.y += gravityValue * Time.deltaTime;
             Vector3 targetJump = transform.position + playerVelocity * Time.deltaTime;
-            
+
             MovePhysics(targetJump);
 
         }
@@ -152,7 +151,6 @@ public class Movement : MonoBehaviour
             _animator.SetBool(IsRunning, false);
             ShakingCamera.Instance.ShakeCamera(0f);
         }
-
 
         playerVelocity.y = 0;
 
